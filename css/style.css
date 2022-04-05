@@ -1,0 +1,107 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active {outline: none;}
+a :focus, a :active{outline: none;}
+nav,footer,header,aside{display: block;}
+
+html,body{
+height:100%;
+width: 100%;
+font-size: 100%;
+line-height: 1; 
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+input, button,textarea{font-family: inherit;}
+
+input ::-ms-clear{display: none;}
+button{cursor: pointer;}
+button ::-moz-focus-inner{ padding: 0; border: 0;}
+a, a :visited{teзt-decoration: none;}
+a :hover{ text-decoration:none;}
+ul li{list-style: none;}
+img{vertical-align: none;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight:400;}
+
+
+body{
+
+background: url(../img/1024W_F_456090755_WNMdskA1VVNeASs2Es5pa09RvR8vm1wQ_NW1.jpg) ;
+}
+
+.content{
+    max-width: 841px;
+    margin: 0px auto;
+ padding: 168px 0 137px 0;
+}
+
+.content-top__caetgory{
+    font-size: 40px;
+  margin: 0 0 50px 200px;
+    color: green;
+}
+.content-top-title{
+    font-style: italic;
+    font-size: 40px;
+color:brown;
+}
+
+.content-image{
+    margin: 0 0 110px 600px;
+}
+.bottom-text{
+font-size: 25px;
+border: 5px solid #000;
+border-radius: 15px;
+background:#fff;
+margin: 0 0 100px 0;
+}
+
+.bottom-text p{
+    padding: 0 0 10px 0;
+}
+
+.content-bottom-info__link{
+    height: 44px;
+    display: inline-block;
+    line-height: 44px;
+    border-radius: 30px;
+    padding: 0 30px ;
+    margin: 0 0 0 150px;
+    background-color: pink;
+    box-shadow: 0 6px 40px rgba(128, 183 179,0.54);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+.content-bottom-info__link-1{
+    height: 44px;
+    display: inline-block;
+    line-height: 44px;
+    border-radius: 40px;
+    padding: 0 30px ;
+    margin: 0 0 0 150px;
+    background-color: pink;
+    box-shadow: 0 6px 40px rgba(128, 183 179,0.54);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
